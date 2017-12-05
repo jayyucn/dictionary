@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		243440A81FD15B0B00CC41E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440A71FD15B0B00CC41E7 /* AppDelegate.swift */; };
-		243440AA1FD15B0B00CC41E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440A91FD15B0B00CC41E7 /* ViewController.swift */; };
-		243440AD1FD15B0B00CC41E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243440AB1FD15B0B00CC41E7 /* Main.storyboard */; };
 		243440AF1FD15B0B00CC41E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243440AE1FD15B0B00CC41E7 /* Assets.xcassets */; };
 		243440B21FD15B0B00CC41E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243440B01FD15B0B00CC41E7 /* LaunchScreen.storyboard */; };
+		243440BA1FD15D0100CC41E7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440B91FD15D0100CC41E7 /* TabBarController.swift */; };
+		243440BD1FD1744900CC41E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440BB1FD1744900CC41E7 /* HomeViewController.swift */; };
+		243440BE1FD1744900CC41E7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243440BC1FD1744900CC41E7 /* HomeViewController.xib */; };
+		243440C21FD1747500CC41E7 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440C01FD1747500CC41E7 /* RankViewController.swift */; };
+		243440C31FD1747500CC41E7 /* RankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243440C11FD1747500CC41E7 /* RankViewController.xib */; };
+		243440C71FD174AA00CC41E7 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440C51FD174AA00CC41E7 /* DiscoveryViewController.swift */; };
+		243440C81FD174AA00CC41E7 /* DiscoveryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243440C61FD174AA00CC41E7 /* DiscoveryViewController.xib */; };
+		243440CC1FD174E100CC41E7 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440CA1FD174E100CC41E7 /* MineViewController.swift */; };
+		243440CD1FD174E100CC41E7 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243440CB1FD174E100CC41E7 /* MineViewController.xib */; };
+		243440D01FD179D100CC41E7 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440CF1FD179D100CC41E7 /* BaseNavigationController.swift */; };
+		243440D21FD17B6100CC41E7 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440D11FD17B6100CC41E7 /* HomeNavigationController.swift */; };
+		243440D41FD17BA100CC41E7 /* RankNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440D31FD17BA100CC41E7 /* RankNavigationController.swift */; };
+		243440D61FD17BBF00CC41E7 /* DiscoveryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440D51FD17BBF00CC41E7 /* DiscoveryNavigationController.swift */; };
+		243440D81FD17BD000CC41E7 /* MineNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440D71FD17BD000CC41E7 /* MineNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		243440A41FD15B0B00CC41E7 /* ymlive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ymlive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		243440A71FD15B0B00CC41E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		243440A91FD15B0B00CC41E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		243440AC1FD15B0B00CC41E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		243440AE1FD15B0B00CC41E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		243440B11FD15B0B00CC41E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243440B31FD15B0B00CC41E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243440B91FD15D0100CC41E7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		243440BB1FD1744900CC41E7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		243440BC1FD1744900CC41E7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		243440C01FD1747500CC41E7 /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		243440C11FD1747500CC41E7 /* RankViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankViewController.xib; sourceTree = "<group>"; };
+		243440C51FD174AA00CC41E7 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		243440C61FD174AA00CC41E7 /* DiscoveryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoveryViewController.xib; sourceTree = "<group>"; };
+		243440CA1FD174E100CC41E7 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		243440CB1FD174E100CC41E7 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		243440CF1FD179D100CC41E7 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		243440D11FD17B6100CC41E7 /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		243440D31FD17BA100CC41E7 /* RankNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankNavigationController.swift; sourceTree = "<group>"; };
+		243440D51FD17BBF00CC41E7 /* DiscoveryNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryNavigationController.swift; sourceTree = "<group>"; };
+		243440D71FD17BD000CC41E7 /* MineNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +79,57 @@
 			isa = PBXGroup;
 			children = (
 				243440A71FD15B0B00CC41E7 /* AppDelegate.swift */,
-				243440A91FD15B0B00CC41E7 /* ViewController.swift */,
-				243440AB1FD15B0B00CC41E7 /* Main.storyboard */,
+				243440B91FD15D0100CC41E7 /* TabBarController.swift */,
+				243440CF1FD179D100CC41E7 /* BaseNavigationController.swift */,
+				243440BF1FD1745500CC41E7 /* Home */,
+				243440C41FD1747A00CC41E7 /* Rank */,
+				243440C91FD174AF00CC41E7 /* Discovery */,
+				243440CE1FD174E500CC41E7 /* Mine */,
 				243440AE1FD15B0B00CC41E7 /* Assets.xcassets */,
 				243440B01FD15B0B00CC41E7 /* LaunchScreen.storyboard */,
 				243440B31FD15B0B00CC41E7 /* Info.plist */,
 			);
 			path = ymlive;
+			sourceTree = "<group>";
+		};
+		243440BF1FD1745500CC41E7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				243440BB1FD1744900CC41E7 /* HomeViewController.swift */,
+				243440BC1FD1744900CC41E7 /* HomeViewController.xib */,
+				243440D11FD17B6100CC41E7 /* HomeNavigationController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		243440C41FD1747A00CC41E7 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				243440C01FD1747500CC41E7 /* RankViewController.swift */,
+				243440C11FD1747500CC41E7 /* RankViewController.xib */,
+				243440D31FD17BA100CC41E7 /* RankNavigationController.swift */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		243440C91FD174AF00CC41E7 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				243440C51FD174AA00CC41E7 /* DiscoveryViewController.swift */,
+				243440C61FD174AA00CC41E7 /* DiscoveryViewController.xib */,
+				243440D51FD17BBF00CC41E7 /* DiscoveryNavigationController.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		243440CE1FD174E500CC41E7 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				243440CA1FD174E100CC41E7 /* MineViewController.swift */,
+				243440CB1FD174E100CC41E7 /* MineViewController.xib */,
+				243440D71FD17BD000CC41E7 /* MineNavigationController.swift */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +193,10 @@
 			files = (
 				243440B21FD15B0B00CC41E7 /* LaunchScreen.storyboard in Resources */,
 				243440AF1FD15B0B00CC41E7 /* Assets.xcassets in Resources */,
-				243440AD1FD15B0B00CC41E7 /* Main.storyboard in Resources */,
+				243440C31FD1747500CC41E7 /* RankViewController.xib in Resources */,
+				243440BE1FD1744900CC41E7 /* HomeViewController.xib in Resources */,
+				243440C81FD174AA00CC41E7 /* DiscoveryViewController.xib in Resources */,
+				243440CD1FD174E100CC41E7 /* MineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +207,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243440AA1FD15B0B00CC41E7 /* ViewController.swift in Sources */,
+				243440D81FD17BD000CC41E7 /* MineNavigationController.swift in Sources */,
+				243440D61FD17BBF00CC41E7 /* DiscoveryNavigationController.swift in Sources */,
+				243440BA1FD15D0100CC41E7 /* TabBarController.swift in Sources */,
+				243440D41FD17BA100CC41E7 /* RankNavigationController.swift in Sources */,
+				243440D01FD179D100CC41E7 /* BaseNavigationController.swift in Sources */,
 				243440A81FD15B0B00CC41E7 /* AppDelegate.swift in Sources */,
+				243440C21FD1747500CC41E7 /* RankViewController.swift in Sources */,
+				243440BD1FD1744900CC41E7 /* HomeViewController.swift in Sources */,
+				243440C71FD174AA00CC41E7 /* DiscoveryViewController.swift in Sources */,
+				243440D21FD17B6100CC41E7 /* HomeNavigationController.swift in Sources */,
+				243440CC1FD174E100CC41E7 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		243440AB1FD15B0B00CC41E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				243440AC1FD15B0B00CC41E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		243440B01FD15B0B00CC41E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
