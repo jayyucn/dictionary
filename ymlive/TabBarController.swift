@@ -85,7 +85,10 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         
     }
     open func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        
+        if viewController .isEqual(tabBarController.viewControllers?[2]) {
+            
+            return false
+        }
         
         return true
     }

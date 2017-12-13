@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class RankViewController: UIViewController {
 
@@ -14,6 +15,20 @@ class RankViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+//
+        let params = ["account":18516774419,"pwd":123456]
+        APIManager.requestData(.post, URLString: "index/login", parameters: params) { (response) in
+            print("response: \(response)")
+        }
+        
+        
+//        Alamofire.request("http://phone.hainantaohua.com/index/login").responseString { (response) in
+//            print("response:\(response)")
+//        }
     }
 
     override func didReceiveMemoryWarning() {

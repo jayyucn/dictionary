@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241A63FC1FE10AB700C21ADB /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A63FB1FE10AB700C21ADB /* MD5.swift */; };
+		241A63FE1FE11BFE00C21ADB /* ThirdParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A63FD1FE11BFE00C21ADB /* ThirdParty.swift */; };
+		241A64001FE11EAC00C21ADB /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A63FF1FE11EAC00C21ADB /* Config.swift */; };
+		241A64061FE139BB00C21ADB /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241A64051FE139BA00C21ADB /* IJKMediaFramework.framework */; };
 		243440A81FD15B0B00CC41E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440A71FD15B0B00CC41E7 /* AppDelegate.swift */; };
 		243440AF1FD15B0B00CC41E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243440AE1FD15B0B00CC41E7 /* Assets.xcassets */; };
 		243440B21FD15B0B00CC41E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243440B01FD15B0B00CC41E7 /* LaunchScreen.storyboard */; };
@@ -24,9 +28,16 @@
 		243440D41FD17BA100CC41E7 /* RankNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440D31FD17BA100CC41E7 /* RankNavigationController.swift */; };
 		243440D61FD17BBF00CC41E7 /* DiscoveryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440D51FD17BBF00CC41E7 /* DiscoveryNavigationController.swift */; };
 		243440D81FD17BD000CC41E7 /* MineNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243440D71FD17BD000CC41E7 /* MineNavigationController.swift */; };
+		243556EF1FDFA4F700D9DB29 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243556EE1FDFA4F700D9DB29 /* APIManager.swift */; };
+		24BBF95B1FD7CAD700BF7AD0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 24BBF95A1FD7CAD700BF7AD0 /* README.md */; };
+		9BD4865CDB94DF29C5724DFC /* Pods_ymlive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B8E676024619B033A3A051 /* Pods_ymlive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		241A63FB1FE10AB700C21ADB /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		241A63FD1FE11BFE00C21ADB /* ThirdParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdParty.swift; sourceTree = "<group>"; };
+		241A63FF1FE11EAC00C21ADB /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		241A64051FE139BA00C21ADB /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		243440A41FD15B0B00CC41E7 /* ymlive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ymlive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		243440A71FD15B0B00CC41E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		243440AE1FD15B0B00CC41E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +57,11 @@
 		243440D31FD17BA100CC41E7 /* RankNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankNavigationController.swift; sourceTree = "<group>"; };
 		243440D51FD17BBF00CC41E7 /* DiscoveryNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryNavigationController.swift; sourceTree = "<group>"; };
 		243440D71FD17BD000CC41E7 /* MineNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineNavigationController.swift; sourceTree = "<group>"; };
+		243556EE1FDFA4F700D9DB29 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		24BBF95A1FD7CAD700BF7AD0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8BA109CB0AA766AFB7A89390 /* Pods-ymlive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ymlive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ymlive/Pods-ymlive.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4D75C1379A5634505B9C4B /* Pods-ymlive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ymlive.release.xcconfig"; path = "Pods/Target Support Files/Pods-ymlive/Pods-ymlive.release.xcconfig"; sourceTree = "<group>"; };
+		D7B8E676024619B033A3A051 /* Pods_ymlive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ymlive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +69,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD4865CDB94DF29C5724DFC /* Pods_ymlive.framework in Frameworks */,
+				241A64061FE139BB00C21ADB /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B169AAB021D41C6A60744EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				241A64051FE139BA00C21ADB /* IJKMediaFramework.framework */,
+				D7B8E676024619B033A3A051 /* Pods_ymlive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C8C602A864E81AABA890ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BA109CB0AA766AFB7A89390 /* Pods-ymlive.debug.xcconfig */,
+				9C4D75C1379A5634505B9C4B /* Pods-ymlive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		241A63FA1FE10AA700C21ADB /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				241A63FB1FE10AB700C21ADB /* MD5.swift */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
 		2434409B1FD15B0B00CC41E7 = {
 			isa = PBXGroup;
 			children = (
+				24BBF95A1FD7CAD700BF7AD0 /* README.md */,
 				243440A61FD15B0B00CC41E7 /* ymlive */,
 				243440A51FD15B0B00CC41E7 /* Products */,
+				1C8C602A864E81AABA890ED4 /* Pods */,
+				0B169AAB021D41C6A60744EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +125,10 @@
 		243440A61FD15B0B00CC41E7 /* ymlive */ = {
 			isa = PBXGroup;
 			children = (
+				243440B31FD15B0B00CC41E7 /* Info.plist */,
+				24A5515B1FDFD70500C49947 /* Utility */,
+				2435569A1FDEE02C00D9DB29 /* ThirdParty */,
+				243556891FDE630B00D9DB29 /* Heper */,
 				243440A71FD15B0B00CC41E7 /* AppDelegate.swift */,
 				243440B91FD15D0100CC41E7 /* TabBarController.swift */,
 				243440CF1FD179D100CC41E7 /* BaseNavigationController.swift */,
@@ -85,9 +136,7 @@
 				243440C41FD1747A00CC41E7 /* Rank */,
 				243440C91FD174AF00CC41E7 /* Discovery */,
 				243440CE1FD174E500CC41E7 /* Mine */,
-				243440AE1FD15B0B00CC41E7 /* Assets.xcassets */,
-				243440B01FD15B0B00CC41E7 /* LaunchScreen.storyboard */,
-				243440B31FD15B0B00CC41E7 /* Info.plist */,
+				243556881FDE62F500D9DB29 /* supports */,
 			);
 			path = ymlive;
 			sourceTree = "<group>";
@@ -132,6 +181,40 @@
 			path = Mine;
 			sourceTree = "<group>";
 		};
+		243556881FDE62F500D9DB29 /* supports */ = {
+			isa = PBXGroup;
+			children = (
+				243440AE1FD15B0B00CC41E7 /* Assets.xcassets */,
+				243440B01FD15B0B00CC41E7 /* LaunchScreen.storyboard */,
+			);
+			path = supports;
+			sourceTree = "<group>";
+		};
+		243556891FDE630B00D9DB29 /* Heper */ = {
+			isa = PBXGroup;
+			children = (
+				243556EE1FDFA4F700D9DB29 /* APIManager.swift */,
+			);
+			path = Heper;
+			sourceTree = "<group>";
+		};
+		2435569A1FDEE02C00D9DB29 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				241A63FD1FE11BFE00C21ADB /* ThirdParty.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		24A5515B1FDFD70500C49947 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				241A63FF1FE11EAC00C21ADB /* Config.swift */,
+				241A63FA1FE10AA700C21ADB /* MD5 */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 243440B61FD15B0B00CC41E7 /* Build configuration list for PBXNativeTarget "ymlive" */;
 			buildPhases = (
+				AD451C0506B96717812ACFC4 /* [CP] Check Pods Manifest.lock */,
 				243440A01FD15B0B00CC41E7 /* Sources */,
 				243440A11FD15B0B00CC41E7 /* Frameworks */,
 				243440A21FD15B0B00CC41E7 /* Resources */,
+				F5C345B532A434FA63E978FF /* [CP] Embed Pods Frameworks */,
+				A8B757CD67696EF23C3B2E39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +280,7 @@
 				243440B21FD15B0B00CC41E7 /* LaunchScreen.storyboard in Resources */,
 				243440AF1FD15B0B00CC41E7 /* Assets.xcassets in Resources */,
 				243440C31FD1747500CC41E7 /* RankViewController.xib in Resources */,
+				24BBF95B1FD7CAD700BF7AD0 /* README.md in Resources */,
 				243440BE1FD1744900CC41E7 /* HomeViewController.xib in Resources */,
 				243440C81FD174AA00CC41E7 /* DiscoveryViewController.xib in Resources */,
 				243440CD1FD174E100CC41E7 /* MineViewController.xib in Resources */,
@@ -202,6 +289,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A8B757CD67696EF23C3B2E39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ymlive/Pods-ymlive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD451C0506B96717812ACFC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ymlive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C345B532A434FA63E978FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ymlive/Pods-ymlive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ymlive/Pods-ymlive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		243440A01FD15B0B00CC41E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -209,10 +360,14 @@
 			files = (
 				243440D81FD17BD000CC41E7 /* MineNavigationController.swift in Sources */,
 				243440D61FD17BBF00CC41E7 /* DiscoveryNavigationController.swift in Sources */,
+				241A64001FE11EAC00C21ADB /* Config.swift in Sources */,
+				241A63FE1FE11BFE00C21ADB /* ThirdParty.swift in Sources */,
 				243440BA1FD15D0100CC41E7 /* TabBarController.swift in Sources */,
 				243440D41FD17BA100CC41E7 /* RankNavigationController.swift in Sources */,
 				243440D01FD179D100CC41E7 /* BaseNavigationController.swift in Sources */,
+				243556EF1FDFA4F700D9DB29 /* APIManager.swift in Sources */,
 				243440A81FD15B0B00CC41E7 /* AppDelegate.swift in Sources */,
+				241A63FC1FE10AB700C21ADB /* MD5.swift in Sources */,
 				243440C21FD1747500CC41E7 /* RankViewController.swift in Sources */,
 				243440BD1FD1744900CC41E7 /* HomeViewController.swift in Sources */,
 				243440C71FD174AA00CC41E7 /* DiscoveryViewController.swift in Sources */,
@@ -344,12 +499,18 @@
 		};
 		243440B71FD15B0B00CC41E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA109CB0AA766AFB7A89390 /* Pods-ymlive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97C92FDQ9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ymlive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalanrola.ymlive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -359,12 +520,18 @@
 		};
 		243440B81FD15B0B00CC41E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4D75C1379A5634505B9C4B /* Pods-ymlive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97C92FDQ9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ymlive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalanrola.ymlive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
