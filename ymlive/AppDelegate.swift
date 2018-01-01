@@ -23,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = tabBarCtrl
         window?.makeKeyAndVisible()
         
+        UINavigationBar.appearance() .setBackgroundImage(#imageLiteral(resourceName: "navigationbar_bg").resizableImage(withCapInsets: UIEdgeInsetsMake(0, 0, 0, 0), resizingMode: .stretch), for: UIBarMetrics.default)
+        UINavigationBar.appearance() .titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        
         return true
     }
     

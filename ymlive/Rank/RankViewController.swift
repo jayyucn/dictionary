@@ -20,12 +20,14 @@ class RankViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 //
-        let params = ["account":18516774419,"pwd":123456]
-        APIManager.requestData(.post, URLString: "index/login", parameters: params) { (response) in
-            print("response: \(response)")
+//        let params = ["account":"18516774419","pwd":"123456".md5(),"udid":"h00ed73c44ad1b7ff29e904d24cd9b0df","ry":"1"]
+//        APIManager.request(.post, URLString: "index/login", parameters: params) { (response) in
+////            print("response: \(response)")
+//        }
+        
+        APIManager.request(.get, URLString: "index/index") { (response) in
+            YMLog(response)
         }
-        
-        
 //        Alamofire.request("http://phone.hainantaohua.com/index/login").responseString { (response) in
 //            print("response:\(response)")
 //        }

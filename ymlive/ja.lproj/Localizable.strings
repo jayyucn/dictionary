@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ymlive
+
+  Created by jay yu on 2017/12/19.
+  Copyright © 2017年 nalanrola. All rights reserved.
+*/
+
+tabbar_home             = "ホーム";
+tabbar_rank             = "人気ランキング";
+tabbar_discovery        = "発見";
+tabbar_mine             = "ユーザセンター";
+

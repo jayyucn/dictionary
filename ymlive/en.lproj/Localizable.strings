@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  ymlive
+
+  Created by jay yu on 2017/12/19.
+  Copyright © 2017年 nalanrola. All rights reserved.
+*/
+tabbar_home             = "Home";
+tabbar_rank             = "Charts";
+tabbar_discovery        = "Discovery";
+tabbar_mine             = "Mine";
+

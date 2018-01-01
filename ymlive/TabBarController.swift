@@ -42,8 +42,8 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         let discoveryCtrl       = DiscoveryViewController.init(nibName: "DiscoveryViewController", bundle: Bundle.main)
         let discoveryNavCtrl    = DiscoveryNavigationController.init(rootViewController: discoveryCtrl)
         
-        let mineCtrl = MineViewController.init(nibName: "MineViewController", bundle: Bundle.main)
-        let mineNavCtrl = MineNavigationController.init(rootViewController: mineCtrl)
+        let mineSb = UIStoryboard.init(name: "MineStoryboard", bundle: Bundle.main)
+        let mineNavCtrl: UIViewController = mineSb.instantiateInitialViewController()!
         
         let viewCtrls = [homeNavCtrl, rankNavCtrl, UIViewController.init(), discoveryNavCtrl, mineNavCtrl]
         self.viewControllers = viewCtrls
@@ -52,19 +52,19 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         let items = self.tabBar.items
         
         let homeItem = items![0]
-        configureTabBarItem(item: homeItem, title: "首页", image: #imageLiteral(resourceName: "tabbar_home"), selectedImage: #imageLiteral(resourceName: "tabbar_home_selected"))
+        configureTabBarItem(item: homeItem, title: kTabbarHomeString, image: #imageLiteral(resourceName: "tabbar_home"), selectedImage: #imageLiteral(resourceName: "tabbar_home_selected"))
         
         let rankItem = items![1]
-        configureTabBarItem(item: rankItem, title: "排行榜", image: #imageLiteral(resourceName: "tabbar_rank"), selectedImage: #imageLiteral(resourceName: "tabbar_rank_selected"))
+        configureTabBarItem(item: rankItem, title: kTabbarRankString, image: #imageLiteral(resourceName: "tabbar_rank"), selectedImage: #imageLiteral(resourceName: "tabbar_rank_selected"))
         
         let liveItem = items![2]
         congfigureTabbarLiveItem(item: liveItem, image: #imageLiteral(resourceName: "tabbar_live"), selectedImage: #imageLiteral(resourceName: "tabbar_live_selected"))
         
         let discoveryItem = items![3]
-        configureTabBarItem(item: discoveryItem, title: "发现", image: #imageLiteral(resourceName: "tabbar_discovery"), selectedImage: #imageLiteral(resourceName: "tabbar_discovery_selected"))
+        configureTabBarItem(item: discoveryItem, title: kTabbarDiscoveryString, image: #imageLiteral(resourceName: "tabbar_discovery"), selectedImage: #imageLiteral(resourceName: "tabbar_discovery_selected"))
         
         let mineItem = items![4]
-        configureTabBarItem(item: mineItem, title: "用户中心", image: #imageLiteral(resourceName: "tabbar_mine"), selectedImage: #imageLiteral(resourceName: "tabbar_mine_selected"))
+        configureTabBarItem(item: mineItem, title: kTabbarMineString, image: #imageLiteral(resourceName: "tabbar_mine"), selectedImage: #imageLiteral(resourceName: "tabbar_mine_selected"))
         
         // MARK: TabbarItem title
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.gray], for: UIControlState.normal)
