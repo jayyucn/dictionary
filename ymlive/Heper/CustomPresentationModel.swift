@@ -11,8 +11,15 @@ let kPopoverViewDismissNotification = "kPopoverViewDismissNotification"
 
 
 import UIKit
+import pop
 
 class CustomPresentationModel: NSObject, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning {
+    
+    init(style: ModalPresentationStyle) {
+        super.init()
+        
+    }
+    
     //记录是否已经pop出来控制器
     private var isPopped: Bool = false
     
@@ -49,7 +56,7 @@ class CustomPresentationModel: NSObject, UIViewControllerTransitioningDelegate, 
     // MARK : - UIViewControllerAnimatedTransitioning - 代理方法
     /// 返回转场时间, 一般没人管
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 888
+        return 1.0
     }
     /// 设置转场动画,利用上下文
     
@@ -61,11 +68,25 @@ class CustomPresentationModel: NSObject, UIViewControllerTransitioningDelegate, 
         if isPopped {
             // 取出上下文中的 展示控制器的view
             presentView = transitionContext.view(forKey: UITransitionContextViewKey.to)!
-            presentView.layer.anchorPoint = CGPoint(x: 0.5, y: 0)
+            presentView.layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
             // warning 将view需要手动加到 内容view上,才能显示 , 相当于自己还要在进行创建内容控制器一样.
             transitionContext.containerView.addSubview(presentView)
-            presentView.transform = CGAffineTransform(scaleX: 1.0, y: 0.0)
-            UIView.animate(withDuration: 0.5, animations: { () -> Void in
+            let anima = POPSpringAnimation.init(propertyNamed: kPOPLayerPositionY)
+            anima?.toValue = transitionContext.containerView.center.y
+            anima?.springBounciness = 10.0;
+            anima?.completionBlock = {(animation, finished) in
+                //Code goes here
+                transitionContext.completeTransition(true)
+            }
+            
+            let scaleAnima = POPSpringAnimation.init(propertyNamed: kPOPLayerScaleXY)
+            scaleAnima?.springBounciness = 20
+            scaleAnima?.fromValue = NSValue.init(cgPoint: CGPoint.init(x: 1.2, y: 1.4))
+            
+            presentView.layer .pop_add(anima, forKey: "positionAnimation")
+            presentView.layer .pop_add(scaleAnima, forKey: "scaleAnimation")
+//            presentView.transform = CGAffineTransform(scaleX: 0.5, y: 1.0)
+            UIView.animate(withDuration: 1.5, animations: { () -> Void in
                 presentView.transform = CGAffineTransform.identity
             }) { (_) -> Void in
                 // 完成时,一定记得关闭上下文,负责动画无法完成.
@@ -76,12 +97,13 @@ class CustomPresentationModel: NSObject, UIViewControllerTransitioningDelegate, 
             presentView = transitionContext.view(forKey: UITransitionContextViewKey.from)!
             // waring 将view需要手动加到 内容view上,才能显示 , 相当于自己还要在进行创建内容控制器一样.
             transitionContext.containerView.addSubview(presentView)
-            UIView.animate(withDuration: 0.5, animations: { () -> Void in
+            UIView.animate(withDuration: 1.5, animations: { () -> Void in
                 presentView.transform = CGAffineTransform(scaleX: 1.0, y: 0.0000001)
             }) { (_) -> Void in
                 // 完成时,一定记得关闭上下文,负责动画无法完成.
                 transitionContext.completeTransition(true)
             }
+            
         }
     }
 }

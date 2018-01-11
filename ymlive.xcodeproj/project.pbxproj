@@ -48,6 +48,8 @@
 		24EAFAF31FF77B2900F493E7 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAFAF21FF77B2900F493E7 /* Router.swift */; };
 		24EAFAF51FF7922E00F493E7 /* CustomPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAFAF41FF7922E00F493E7 /* CustomPresentationModel.swift */; };
 		24EAFAF71FF7970500F493E7 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAFAF61FF7970500F493E7 /* PresentationController.swift */; };
+		24EAFAF91FFB365800F493E7 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAFAF81FFB365800F493E7 /* FacebookViewController.swift */; };
+		24EAFAFD1FFB7E8300F493E7 /* UIviewControllerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAFAFC1FFB7E8300F493E7 /* UIviewControllerAnimation.swift */; };
 		9BD4865CDB94DF29C5724DFC /* Pods_ymlive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B8E676024619B033A3A051 /* Pods_ymlive.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,7 +102,6 @@
 		245DEFAC1FE8CB65007E64D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		245DEFAD1FE8E968007E64D2 /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
 		24EAFADA1FF1EBF700F493E7 /* zh */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = zh; path = zh.lproj/MineStoryboard.storyboard; sourceTree = "<group>"; };
-		24EAFAE11FF1EC3F00F493E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MineStoryboard.storyboard; sourceTree = "<group>"; };
 		24EAFAE21FF1EC3F00F493E7 /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/MineStoryboard.storyboard"; sourceTree = "<group>"; };
 		24EAFAE31FF1EFEB00F493E7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		24EAFAE41FF1EFEB00F493E7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -109,6 +110,9 @@
 		24EAFAF21FF77B2900F493E7 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		24EAFAF41FF7922E00F493E7 /* CustomPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationModel.swift; sourceTree = "<group>"; };
 		24EAFAF61FF7970500F493E7 /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		24EAFAF81FFB365800F493E7 /* FacebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		24EAFAFC1FFB7E8300F493E7 /* UIviewControllerAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIviewControllerAnimation.swift; sourceTree = "<group>"; };
+		24EAFB001FFDC39E00F493E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MineStoryboard.storyboard; sourceTree = "<group>"; };
 		8BA109CB0AA766AFB7A89390 /* Pods-ymlive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ymlive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ymlive/Pods-ymlive.debug.xcconfig"; sourceTree = "<group>"; };
 		9C4D75C1379A5634505B9C4B /* Pods-ymlive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ymlive.release.xcconfig"; path = "Pods/Target Support Files/Pods-ymlive/Pods-ymlive.release.xcconfig"; sourceTree = "<group>"; };
 		D7B8E676024619B033A3A051 /* Pods_ymlive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ymlive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				24EAFADB1FF1EBF700F493E7 /* MineStoryboard.storyboard */,
+				24EAFAF81FFB365800F493E7 /* FacebookViewController.swift */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				24EAFAF21FF77B2900F493E7 /* Router.swift */,
 				24EAFAF41FF7922E00F493E7 /* CustomPresentationModel.swift */,
 				24EAFAF61FF7970500F493E7 /* PresentationController.swift */,
+				24EAFAFC1FFB7E8300F493E7 /* UIviewControllerAnimation.swift */,
 			);
 			path = Heper;
 			sourceTree = "<group>";
@@ -479,10 +485,12 @@
 				243440A81FD15B0B00CC41E7 /* AppDelegate.swift in Sources */,
 				241A63FC1FE10AB700C21ADB /* MD5.swift in Sources */,
 				24EAFAF31FF77B2900F493E7 /* Router.swift in Sources */,
+				24EAFAF91FFB365800F493E7 /* FacebookViewController.swift in Sources */,
 				243440C21FD1747500CC41E7 /* RankViewController.swift in Sources */,
 				243440BD1FD1744900CC41E7 /* HomeViewController.swift in Sources */,
 				245DEFAE1FE8E968007E64D2 /* LocalizableStrings.swift in Sources */,
 				24EAFAF51FF7922E00F493E7 /* CustomPresentationModel.swift in Sources */,
+				24EAFAFD1FFB7E8300F493E7 /* UIviewControllerAnimation.swift in Sources */,
 				243440C71FD174AA00CC41E7 /* DiscoveryViewController.swift in Sources */,
 				243440D21FD17B6100CC41E7 /* HomeNavigationController.swift in Sources */,
 				245DEF961FE4DE3B007E64D2 /* Reachability.swift in Sources */,
@@ -531,9 +539,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				24EAFADA1FF1EBF700F493E7 /* zh */,
-				24EAFAE11FF1EC3F00F493E7 /* en */,
 				24EAFAE21FF1EC3F00F493E7 /* zh-Hant-TW */,
 				24EAFAE61FF1EFEB00F493E7 /* ja */,
+				24EAFB001FFDC39E00F493E7 /* en */,
 			);
 			name = MineStoryboard.storyboard;
 			sourceTree = "<group>";

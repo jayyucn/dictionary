@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--User Center-->
+        <!--用户中心-->
         <scene sceneID="yIv-le-zcs">
             <objects>
                 <tableViewController id="jK0-s4-zgp" sceneMemberID="viewController">
@@ -22,11 +22,11 @@
                             <outlet property="delegate" destination="jK0-s4-zgp" id="rlq-rJ-WZB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="User Center" id="VCx-jL-s2G"/>
+                    <navigationItem key="navigationItem" title="用户中心" id="VCx-jL-s2G"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NfK-Xk-cvU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-401" y="-1284"/>
+            <point key="canvasLocation" x="-402.39999999999998" y="-1284.1079460269866"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wqs-yb-n94">

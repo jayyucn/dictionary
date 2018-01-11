@@ -39,6 +39,18 @@ class HomeViewController: UIViewController {
         print(self.view.frame.width)
         
     }
+    
+//    private lazy var customModel = CustomPresentationModel(style: .upDown)
+    @IBAction func customAction(_ sender: Any) {
+        let discoveryViewCtrl = FacebookViewController()
+        present(viewCtrl: discoveryViewCtrl, style: .upDown, completion: nil)
+//        discoveryViewCtrl.transitioningDelegate = customModel
+//        discoveryViewCtrl.modalPresentationStyle = UIModalPresentationStyle.custom
+//        present(discoveryViewCtrl, animated: true, completion: nil)
+        
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

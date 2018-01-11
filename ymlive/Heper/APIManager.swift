@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 
+/** request method type */
 enum MethodType {
     case get
     case post
@@ -30,6 +31,13 @@ class APIManager {
 //    http://phone.hainantaohua.com/
     static let baseUrl = NSURL.init(string: "http://127.0.0.1/tp5/public/index/")
     
+    /// 网络请求
+    ///
+    /// - Parameters:
+    ///   - type: 请求方法类型
+    ///   - URLString: 请求地址
+    ///   - parameters: 请求参数
+    ///   - finishedCallback: 请求结束回调
     class func request(_ type : MethodType, URLString : String, parameters : [String : Any]? = nil, finishedCallback : @escaping (_ result: responseDict) -> ()) {
         
         
